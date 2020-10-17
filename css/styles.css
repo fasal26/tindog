@@ -1,0 +1,205 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#title
+{
+  background-color: #ff4c68;
+}
+
+.container-fluid
+{
+  padding: 3% 15%;
+}
+
+h1
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+h2
+{
+  font-weight: 600;
+  line-height: 2;
+}
+
+h3
+{
+  font-family: 'Montserrat-bold', sans-serif;
+  font-weight: 600;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.navbar-brand{
+   color: white;
+   font-size: 30px;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar
+{
+  padding-bottom: 100px;
+}
+
+.nav-item{
+  font-family: 'Montserrat-light', sans-serif;
+  padding: 0 30px;
+  font-size: 1.2rem;
+}
+
+
+
+.download-button
+{
+  margin: 12% 3% 0 0;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.dog{
+  width: 60%;
+  left: 10%;
+  transform: rotate(15deg);
+  position: relative;
+}
+
+#features
+{
+  padding: 10% 15% 0%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  bottom: 120px
+}
+
+.feature-box
+{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+#testimonials
+{
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding-bottom: 1px;
+}
+
+.carousel-item
+{
+  padding: 7% 15%;
+}
+
+.dog-image
+{
+  width: 20%;
+  border-radius: 100%;
+  margin: 10%;
+}
+
+
+.pebbles
+{
+  position: relative;
+  right: 7%;
+}
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing
+{
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-col
+{
+  padding: 3% 5%
+}
+
+#cta
+{
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.bottom
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  line-height: 1.5;
+}
+
+#footer
+{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.download-button-bottom
+{
+  margin-right: 20px;
+}
+
+.p-footer
+{
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+@media  only screen and (max-width: 768px) {
+
+  #title
+  {
+    text-align: center;
+  }
+
+  #features
+  {
+    z-index: 0;
+    position: static;
+    bottom: 0;
+  }
+
+.dog{
+  transform: none;
+  margin-top: 0px;
+  padding-top: 100px;
+  left: 0;
+}
+
+}
